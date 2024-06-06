@@ -62,6 +62,6 @@
     "vue-tsc": "^2.0.6"
   },
   "publishConfig": {
-    "registry": "https://www.npmjs.com/package/naive-nex"
+    "registry": "https://github.com/xm-zzf/naive-nex.git"
   }
 }
