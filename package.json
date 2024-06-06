@@ -1,6 +1,6 @@
 {
   "name": "naive-nex",
-  "version": "0.0.6",
+  "version": "0.0.5",
   "author": "xm_zzf",
   "type": "module",
   "main": "./lib/index.cjs",
