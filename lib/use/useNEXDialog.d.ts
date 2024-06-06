@@ -21,6 +21,17 @@ export interface IUseNEXDialog {
     close: () => void;
     hideLoading: () => void;
 }
+export interface IUseNEXDialogOption {
+    label: string;
+    key: string;
+    way: [''];
+    props: {
+        [key: string]: any;
+    };
+    text?: string;
+}
+export interface IUseNEXDialogOptions {
+}
 export declare function useNEXDialog({ title, options, labelField, isNo, formProps, interfaceFn, valueData, isRead, action, style }: IUseNEXDialogProps, dialogProps?: DialogOptions | null): {
     show: () => void;
     close: () => void | undefined;

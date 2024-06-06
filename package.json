@@ -1,6 +1,6 @@
 {
   "name": "naive-nex",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "xm_zzf",
   "type": "module",
   "main": "./lib/index.cjs",
@@ -60,5 +60,8 @@
     "vite-plugin-dts": "^3.8.3",
     "vitepress": "^1.2.3",
     "vue-tsc": "^2.0.6"
+  },
+  "publishConfig": {
+    "registry": "https://github.com/xm-zzf/naive-nex.git"
   }
 }
