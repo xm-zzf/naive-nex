@@ -1,0 +1,42 @@
+.dialog_main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  width: 500px;
+  min-height: 300px;
+  max-height: 900px;
+  padding: unset;
+
+  .dialog_main_header,
+  .dialog_main_content,
+  .dialog_main_footer{
+    width: 100%;
+    display: flex;
+    padding: 10px 20px;
+    box-sizing: border-box;
+  }
+
+
+  .dialog_main_header{
+    align-items: center;
+    justify-content: space-between;
+    font-size: var(--n-title-font-size,18px);
+    font-weight: var(--n-title-font-weight);
+    color: var(--n-title-text-color);
+    
+    .dialog_main_close{
+      font-size: var(--n-close-icon-size,18px);
+    }
+  } 
+
+  .dialog_main_content{
+    flex: 1;
+  }
+
+  .dialog_main_footer {
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
