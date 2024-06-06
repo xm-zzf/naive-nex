@@ -30,7 +30,7 @@
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "site:dev": "vitepress dev site",
-    "site:build": "vitepress build site --outDir ./docs",
+    "site:build": "vitepress build site --outDir ./docs --base ./",
     "site:preview": "vitepress preview site"
   },
   "dependencies": {
