@@ -29,10 +29,9 @@
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs --outDir ./public/doc",
-    "docs:build:site": "vitepress build docs --outDir ./site",
-    "docs:preview": "vitepress preview docs"
+    "site:dev": "vitepress dev site",
+    "site:build": "vitepress build site --outDir ./docs",
+    "site:preview": "vitepress preview site"
   },
   "dependencies": {
     "@vueuse/core": "^10.10.0",
