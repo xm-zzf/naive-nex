@@ -31,6 +31,7 @@
     "preview": "vite preview",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs --outDir ./public/doc",
+    "docs:build:site": "vitepress build docs --outDir ./site",
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
